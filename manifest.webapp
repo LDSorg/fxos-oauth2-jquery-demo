@@ -1,0 +1,17 @@
+{ "name": "OAuth3 Demo"
+, "description": "Login to LDS Connect using OAuth2 / OAuth3"
+, "version": "1.0"
+, "type": "privileged"
+, "launch_path": "/index.html"
+, "developer": {
+    "name": "AJ ONeal"
+  , "url": "https://coolaj86.com"
+  }
+, "permissions": {
+    "systemXHR": {}
+  },
+  "redirects": {
+    "from": "http://must-be-a-fake-domain.com",
+    "to": "/oauth-close.html"
+  }
+}
