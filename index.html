@@ -59,10 +59,15 @@
       </div>
 
       <!-- //code.jquery.com/jquery-2.1.3.js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+
+      <!-- support MSIE 8-10 (support for 11 is in oauth3.jquery.js) -->
+      <!--[if IE]>
+      <script src="bower_components/es6-promise/promise.min.js"></script>
+      <![endif]-->
       <script src="bower_components/oauth3/oauth3.js"></script>
       <script src="bower_components/oauth3/oauth3.jquery.js"></script>
 
-      <script src="bower_components/jquery/dist/jquery.js"></script>
       <!-- //maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js -->
       <script src="bootstrap.js"></script>
       <script src="app.js"></script>
